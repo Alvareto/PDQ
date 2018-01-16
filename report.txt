@@ -1,0 +1,107 @@
+
+                ***************************************
+                ****** Pretty Damn Quick REPORT *******
+                ***************************************
+                ***  of : 2018-01-16 19:03:13 CET   ***
+                ***  for: Sustav 7 posluzitelja     ***
+                ***  Ver: 1.0                       ***
+                ***************************************
+                ***************************************
+
+
+
+                ***************************************
+                ******    PDQ Model INPUTS      *******
+                ***************************************
+
+
+Node Sched Resource   Workload   Class     Demand
+---- ----- --------   --------   -----     ------
+CEN  FCFS  Poslužitelj1 Zahtjevi   TRANS     0.0003
+CEN  FCFS  Poslužitelj2 Zahtjevi   TRANS     0.0136
+CEN  FCFS  Poslužitelj3 Zahtjevi   TRANS     0.1357
+CEN  FCFS  Poslužitelj4 Zahtjevi   TRANS     0.5427
+CEN  FCFS  Poslužitelj5 Zahtjevi   TRANS     1.3566
+CEN  FCFS  Poslužitelj6 Zahtjevi   TRANS     0.9273
+CEN  FCFS  Poslužitelj7 Zahtjevi   TRANS     1.5315
+
+
+
+Queueing Circuit Totals:
+
+        Streams:      1
+        Nodes:        7
+
+
+
+WORKLOAD Parameters
+
+Source        per Sec        Demand
+------        -------        ------
+Zahtjevi       0.1000        4.5076
+
+
+
+
+
+                ***************************************
+                ******   PDQ Model OUTPUTS      *******
+                ***************************************
+
+
+Solution Method: CANON
+
+                ******   SYSTEM Performance     *******
+
+
+Metric                     Value    Unit
+------                     -----    ----
+Workload: "Zahtjevi"
+Mean Throughput           0.1000    Job/Sec
+Response Time             5.1253    Sec
+
+Bounds Analysis:
+Max Demand                0.6530    Job/Sec
+Max Throughput            0.6530    Job/Sec
+
+
+                ******   RESOURCE Performance   *******
+
+
+Metric          Resource     Work              Value   Unit
+------          --------     ----              -----   ----
+Throughput      Poslužitelj1   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj1   Zahtjevi         0.0030   Percent
+Queue Length    Poslužitelj1   Zahtjevi         0.0000   Job
+Residence Time  Poslužitelj1   Zahtjevi         0.0003   Sec
+
+Throughput      Poslužitelj2   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj2   Zahtjevi         0.1357   Percent
+Queue Length    Poslužitelj2   Zahtjevi         0.0014   Job
+Residence Time  Poslužitelj2   Zahtjevi         0.0136   Sec
+
+Throughput      Poslužitelj3   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj3   Zahtjevi         1.3566   Percent
+Queue Length    Poslužitelj3   Zahtjevi         0.0138   Job
+Residence Time  Poslužitelj3   Zahtjevi         0.1375   Sec
+
+Throughput      Poslužitelj4   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj4   Zahtjevi         5.4266   Percent
+Queue Length    Poslužitelj4   Zahtjevi         0.0574   Job
+Residence Time  Poslužitelj4   Zahtjevi         0.5738   Sec
+
+Throughput      Poslužitelj5   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj5   Zahtjevi        13.5664   Percent
+Queue Length    Poslužitelj5   Zahtjevi         0.1570   Job
+Residence Time  Poslužitelj5   Zahtjevi         1.5696   Sec
+
+Throughput      Poslužitelj6   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj6   Zahtjevi         9.2727   Percent
+Queue Length    Poslužitelj6   Zahtjevi         0.1022   Job
+Residence Time  Poslužitelj6   Zahtjevi         1.0220   Sec
+
+Throughput      Poslužitelj7   Zahtjevi         0.1000   Job/Sec
+Utilization     Poslužitelj7   Zahtjevi        15.3147   Percent
+Queue Length    Poslužitelj7   Zahtjevi         0.1808   Job
+Residence Time  Poslužitelj7   Zahtjevi         1.8084   Sec
+
